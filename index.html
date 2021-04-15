@@ -1,12 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ToDo List</title>
+    <link rel="stylesheet" href="style.css">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
 </head>
+
 <body>
-    
+    <h1>TO DO LIST</h1>
+    <form action="">
+        <input id="inputToDo" type="text" placeholder=" Add a task" maxlength="20">
+        <span id="addButton" type="submit">Add</span>
+        <span id="doneButton" type="submit">Done</span>
+        <i class="far fa-trash-alt"></i>
+    </form>
+    <section>
+        <article id="todo" hidden>
+            <h4>To Do</h4>
+            <div class="buttons">
+                <!-- <button></button>
+                <button></button>
+                <button></button> -->
+            </div>
+            <hr>
+            <ul class="todo">
+                <!-- <li>1</li>
+                <li>2</li>
+                <li>3</li> -->
+            </ul>
+        </article>
+        <article id="done" hidden>
+            <h4>Done</h4>
+            <div class="buttons">
+                <!-- <button></button>
+                <button></button>
+                <button></button> -->
+            </div>
+            <hr>
+            <ul class="done">
+                <!-- <li>Kinder Abholung</li> -->
+            </ul>
+        </article>
+    </section>
+
+    <script src="./main.js"></script>
 </body>
+
 </html>

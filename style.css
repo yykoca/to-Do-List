@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: radial-gradient(circle, #687c99, #4e8498, #458a89, #5a8c70, #7b8a5a);
+}
+
+h1 {
+    margin: 50px 0 50px 0;
+    text-align: center;
+    color: antiquewhite;
+    font-family: fantasy;
+    font-size: 3rem;
+}
+
+h4 {
+    /* background-color: antiquewhite; */
+    /* padding: 8px; */
+    line-height: 30px;
+    /* box-shadow: 2px 2px 10px rgb(21, 10, 46);
+    border: solid 1px whitesmoke; */
+    color: antiquewhite;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+form input[type="text"] {
+    width: 250px;
+    line-height: 30px;
+    border: none;
+}
+
+form span {
+    border: solid white;
+    color: white;
+    padding: 3px 10px;
+}
+
+form i {
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
+}
+form i:hover {
+    cursor: pointer;
+    color: rgb(255, 170, 60);
+}
+
+form span:hover {
+    border: solid white;
+    color: #4e8498;
+    background-color: white;
+    padding: 3px 10px;
+    cursor: pointer;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+}
+
+article {
+    border: solid aliceblue;
+    padding: 10px;
+    margin: 10px 50px;
+    width: 500px;
+    height: 500px;
+    overflow: scroll;
+    /* box-shadow: 3px 3px 10px #1e293a, -3px 3px 10px #1e293a */
+}
+
+hr {
+    margin: 10px 0;
+}
+
+form {
+    display: block;
+    text-align: center;
+    margin: 20px 0 70px 0;
+}
+
+div.buttons {
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+}
+
+div.buttons button {
+    width: 100px;
+    height: 30px;
+}
+
+ul li {
+    list-style-type: none;
+    border: 1px solid whitesmoke;
+    margin: 5px 0;
+    padding: 10px 5px;
+    background-color: beige;
+    line-height: 15px;
+}
+
+ul li input {
+    float: right;
+    width: 20px;
+    height: 15px;
+}
